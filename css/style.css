@@ -150,7 +150,7 @@ textarea.form-control {
 
 .btn.btn-primary{
 	padding:24px 44px;
-	background: #71c124;
+	background: #FF5750;
 	color: #fff;
 	border: 0;
 }
@@ -267,7 +267,7 @@ form .btn {
 	position: absolute;
 	z-index: 100;
 	display: block;
-	top: 100px;
+	top: 85px;
 	left: 100px;
 }
 
@@ -370,7 +370,7 @@ form .btn {
 }
 
 .slides-pagination a {
-	height: 4px;
+	height: 10px;
 	line-height: 0;
 	display: table-cell;
 	overflow: hidden;
@@ -592,4 +592,16 @@ footer .soc-nav li a:hover:before {
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2) {
 	#intro .logo img { content: url("../images/logo@2x.png"); }
+}
+
+ul.countdown li:before {
+	content: "+";
+	display: block;
+	/*position: absolute;*/
+	right: 0;
+	top: 30%;
+	color: #aaa;
+	font-size: 18px;
+	width: 25px;
+	float: left;
 }
